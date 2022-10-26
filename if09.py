@@ -9,4 +9,18 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
-    return
+
+    x = str(a // 10)
+    y = str(a % 10)
+    c = int(y+x)
+
+    if c <= a:
+        return True
+
+    if c > a:
+        return False
+
+
+q = (main(45))
+
+print(q)
