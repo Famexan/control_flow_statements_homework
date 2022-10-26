@@ -13,4 +13,21 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    countplus = 0
+    countminus = 0
+
+    if a < 0:
+        countplus += 1
+    if b < 0:
+        countplus += 1
+    if c < 0:
+        countplus += 1
+    
+    countminus = 3 - countplus 
+
+    if countplus > countminus:
+        return countplus
+    
+    return countminus
+
+print (main(1,-2,-3))
