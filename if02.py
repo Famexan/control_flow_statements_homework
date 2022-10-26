@@ -12,4 +12,5 @@ def main(a):
     if a < 0:
         a = a + 2
 
-    return
+    return a
+
