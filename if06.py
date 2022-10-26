@@ -16,11 +16,11 @@ def main(a,b,c):
     countplus = 0
     countminus = 0
 
-    if a < 0:
+    if a > 0:
         countplus += 1
-    if b < 0:
+    if b > 0:
         countplus += 1
-    if c < 0:
+    if c > 0:
         countplus += 1
     
     countminus = 3 - countplus 
@@ -29,5 +29,3 @@ def main(a,b,c):
         return countplus
     
     return countminus
-
-print (main(1,-2,-3))
