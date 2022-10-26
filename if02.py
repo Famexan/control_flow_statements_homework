@@ -9,8 +9,8 @@ def main(a):
     if a > 0:
         a += 1
 
-    if a < 0 and a!=0:
-        a = a + 2
+    if a < 0:
+        a = a - 2
 
     return a
 
